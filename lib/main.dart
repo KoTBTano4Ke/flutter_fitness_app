@@ -556,7 +556,7 @@ class _ChatBotState extends State<ChatBot> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('ChatBot', style: Theme.of(context).textTheme.bodyMedium),
+        title: Text('NusqauBot', style: Theme.of(context).textTheme.bodyMedium),
         backgroundColor: const Color.fromARGB(255, 22, 22, 22),
         automaticallyImplyLeading: false,
       ),
@@ -592,7 +592,7 @@ class _ChatBotState extends State<ChatBot> {
                   ),
                   SizedBox(height: 4.0),
                   Text(
-                    isUserMessage ? 'You' : 'ChatBot',
+                    isUserMessage ? 'You' : 'NusqauBot',
                     style: Theme.of(context).textTheme.bodySmall,
                   ),
                 ],
